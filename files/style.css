@@ -87,3 +87,14 @@ footer a {
     text-decoration: none;
     font-weight: 600;
 }
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+#warning::after {
+    content: "Warning: Still under development!";
+    animation: blink 2s linear infinite;
+}
