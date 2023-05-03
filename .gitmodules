@@ -1,0 +1,12 @@
+[submodule "JS-Pong"]
+	path = JS-Pong
+	url = https://github.com/jakecernet/JS-Pong.git
+[submodule "JS-2048"]
+	path = JS-2048
+	url = https://github.com/jakecernet/JS-2048.git
+[submodule "JS-Flappy-Bird"]
+	path = JS-Flappy-Bird
+	url = https://github.com/jakecernet/JS-Flappy-Bird.git
+[submodule "JS-Snake"]
+	path = JS-Snake
+	url = https://github.com/jakecernet/JS-Snake.git
