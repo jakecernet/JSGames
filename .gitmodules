@@ -10,3 +10,6 @@
 [submodule "JS-Snake"]
 	path = JS-Snake
 	url = https://github.com/jakecernet/JS-Snake.git
+[submodule "JS-Minesweeper"]
+	path = JS-Minesweeper
+	url = https://github.com/jakecernet/JS-Minesweeper.git
