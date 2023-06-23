@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +19,28 @@
 </head>
 
 <body>
-    <h1>Choose your game:</h1>
-
-    <div class="game-grid">
-        <a href="JS-Snake/" target="_blank"><img src="files/snake.png" alt="snake">Snake</a>
-        <a href="JS-Tetris/" target="_blank"><img src="files/tetris.png" alt="tetris">Tetris</a>
-        <a href="JS-Pong/" target="_blank"><img src="files/pong.png" alt="classic pong">Pong</a>
-        <a href="JS-Flappy-Bird/" target="_blank"><img src="files/flappy-bird.png" alt="flappy-bird">Flappy Bird</a>
-        <a href="JS-Minesweeper/" target="_blank"><img src="files/minesweeper.png" alt="minesweeper">Minesweeper</a>
-        <a href="JS-2048/" target="_blank"><img src="files/2048.png" alt="2048">2048</a>
+    <nav>
+        <div class="logo">
+            <a href="https://jsgames.tech"><img src="files/logo.png" alt="logo"></a>
+        </div>
+        <div class="buttons">
+            <a href="https://jsgames.tech">JSGames</a>
+            <a href="https://github.com/jakecernet/JSGames">GitHub</a>
+            <a href="https://github.com/jakecernet/JSGames/issues">Report a bug</a>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Choose your game:</h1>
+        <div class="game-grid">
+            <a href="JS-Snake/" target="_blank"><img src="files/snake.png" alt="snake">Snake</a>
+            <a href="JS-Tetris/" target="_blank"><img src="files/tetris.png" alt="tetris">Tetris</a>
+            <a href="JS-Pong/" target="_blank"><img src="files/pong.png" alt="classic pong">Pong</a>
+            <a href="JS-Flappy-Bird/" target="_blank"><img src="files/flappy-bird.png" alt="flappy-bird">Flappy Bird</a>
+            <a href="JS-Minesweeper/" target="_blank"><img src="files/minesweeper.png" alt="minesweeper">Minesweeper</a>
+            <a href="JS-2048/" target="_blank"><img src="files/2048.png" alt="2048">2048</a>
+        </div>
+        <h1 id="warning" style="color: red;"></h1>
     </div>
-    <h1 id="warning" style="color: red;"></h1>
     <footer>Made by: <a href="https://jakecer.tk" target="_blank">Jaka Černetič</a></footer>
 </body>
 

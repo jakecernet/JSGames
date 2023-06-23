@@ -6,28 +6,80 @@
 }
 
 body {
-    background: #f2f2f2;
+    background: #202020
 }
 
 ::-webkit-scrollbar {
     width: 0px;
 }
 
-h1 {
-    font-size: 36px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111111;
+    padding: 20px 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    display: inline-flex;
+}
+
+.logo a img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    rotate: 0deg;
+    transition: 0.5s ease;
+}
+
+.logo a img:hover{
+    rotate: 5deg;  
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.buttons {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons a {
+    color: #fff;
+    text-decoration: none;
     font-weight: 600;
-    color: #000;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 4px;
+}
+
+.buttons a:hover {
+    background: #fff;
+    color: #202020;
+}
+
+.buttons a:active {
+    transform: scale(0.9);
+}
+
+h1 {
     text-align: center;
-    margin-top: 40px;
+    margin: 40px 0;
+    font-size: 40px;
+    color: #fff;
 }
 
 .game-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .game-grid a {
@@ -41,7 +93,8 @@ h1 {
     transition: 0.5s;
     z-index: 100;
     color: #fff;
-    font-style: bold;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
 
@@ -74,7 +127,7 @@ h1 {
 }
 
 .game-grid a:hover img {
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 footer {
