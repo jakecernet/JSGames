@@ -151,3 +151,80 @@ footer a {
     content: "Warning: Still under development!";
     animation: blink 2s linear infinite;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #111111;
+        padding: 15px 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo{
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .logo a img{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        rotate: 0deg;
+        transition: 0.5s ease;
+    }
+
+    .buttons {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin: 2px;
+    }
+
+    .game-grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .game-grid a{
+        margin-top: 20px;
+        background: #fff;
+        box-shadow: 0 5px 0 #999;
+        position: relative;
+        text-decoration: none;
+        transition: 0.5s;
+        z-index: 100;
+        color: #fff;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .game-grid a img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        transition: 0.5s;
+        z-index: -10;
+    }
+}
