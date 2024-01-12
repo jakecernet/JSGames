@@ -28,44 +28,54 @@
 	<body>
 		<nav>
 			<div class="logo">
-				<a href="https://jsgames.tech"
-					><img src="files/logo.png" alt="logo"
-				/></a>
+				<a href="\"> JS Games </a>
 			</div>
-			<div class="buttons">
-				<a href="https://jsgames.tech">JSGames</a>
-				<a href="https://github.com/jakecernet/JSGames">GitHub</a>
-				<a href="https://github.com/jakecernet/JSGames/issues"
-					>Report a bug</a
-				>
-			</div>
+			<ul>
+				<li onclick="window.location.href = './';">Home</li>
+				<li
+					onclick="window.location.href = 'https://github.com/jakecernet/JSGames'">
+					GitHub
+				</li>
+				<li
+					onclick="window.location.href = 'https://github.com/jakecernet/JSGames/issues'">
+					Report a bug
+				</li>
+			</ul>
 		</nav>
 		<div class="content">
 			<h1>Choose your game:</h1>
 			<div class="game-grid">
-				<a href="JS-Snake/" target="_blank"
-					><img src="files/snake.png" alt="snake" />Snake</a
-				>
-				<a href="JS-Tetris/" target="_blank"
-					><img src="files/tetris.png" alt="tetris" />Tetris</a
-				>
-				<a href="JS-Pong/" target="_blank"
-					><img src="files/pong.png" alt="classic pong" />Pong</a
-				>
-				<a href="JS-Flappy-Bird/" target="_blank"
-					><img src="files/flappy-bird.png" alt="flappy-bird" />Flappy
-					Bird</a
-				>
-				<a href="JS-Minesweeper/" target="_blank"
-					><img
-						src="files/minesweeper.png"
-						alt="minesweeper" />Minesweeper</a
-				>
-				<a href="JS-2048/" target="_blank"
-					><img src="files/2048.png" alt="2048" />2048</a
-				>
+				<div class="element">
+					<img src="files/2048.png" alt="2048" />
+					<h3>2048</h3>
+					<p>Play the classic 2048 game.</p>
+					<a href="./JS-2048">Play</a>
+				</div>
+				<div class="element">
+					<img src="files/snake.png" alt="Snake" />
+					<h3>Snake</h3>
+					<p>Play the classic Snake game.</p>
+					<a href="./JS-Snake">Play</a>
+				</div>
+				<div class="element">
+					<img src="files/flappy-bird.png" alt="Flappy Bird" />
+					<h3>Flappy Bird</h3>
+					<p>Play the classic Flappy Bird game.</p>
+					<a href="./JS-Flappy-Bird">Play</a>
+				</div>
+				<div class="element">
+					<img src="files/pong.png" alt="Pong" />
+					<h3>Pong</h3>
+					<p>Play the classic Pong game.</p>
+					<a href="./JS-Pong">Play</a>
+				</div>
+				<div class="element">
+					<img src="files/minesweeper.png" alt="Minesweeper" />
+					<h3>Minesweeper</h3>
+					<p>Play the classic Minesweeper game.</p>
+					<a href="./JS-Minesweeper">Play</a>
+				</div>
 			</div>
-			<h1 id="warning" style="color: red"></h1>
 		</div>
 		<footer>
 			<p>
